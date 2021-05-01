@@ -49,8 +49,11 @@ client.on('message', message =>{
         client.commands.get('youtube').execute(message, args, Discord);
     }else if(command === 'play'){
         client.commands.get('play').execute(message, args, Discord);
-    } else if(command === 'leave')
+    } else if(command === 'leave'){
         client.commands.get('leave').execute(message, args, Discord);
+    }else if(command === 'dream'){
+            client.commands.get('dream').execute(message, args, Discord);
+        }
     
     // if(command === 'ping'){
     //     client.commands.get('ping').execute(message, args);
