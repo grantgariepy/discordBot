@@ -68,5 +68,5 @@ client.on('message', message =>{
 
 
 
-client.login('ODM2NTM3MDE3NTYyNTYyNTkx.YIfbzw.EDDVMEOQsi-ih9uAc5ceMjvXFxs');
+client.login('[INSERT DISCORD TOKEN HERE]');
 
